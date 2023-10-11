@@ -2,14 +2,9 @@ import React, { useEffect, useState } from "react";
 import AppLayout from "../../component/Layout/Layout";
 import Head from "next/head";
 import Link from "next/link";
-import OfferA from "../inner/OfferA";
 import { Blocks } from "react-loader-spinner";
 import axios from "axios";
-import { fontSize } from "@mui/system";
-
 import styles from "../../styles/pages/BlogPage/BlogPage.module.css";
-import FAQSchema from "../../component/FAQSchema/FAQSchema";
-
 function Blog() {
   // const [error, setError] = useState(null);
   // const [isLoaded, setIsLoaded] = useState(false);
